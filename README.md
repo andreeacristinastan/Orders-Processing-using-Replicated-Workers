@@ -27,10 +27,10 @@ Products
             potrivit, apoi se realizeaza scrierea in fisierul potrivit, respectandu-se la
             fel sincronizarea, asa incat sa nu scrie 2 thread-uri in acelasi timp in acelasi
             fisier.
-Pentru implementarea bonusului am inceput prin a calcula dimensiunea
-totala a fisierului ce va fi prelucrat de comenzi, apoi impartit la
-numarul de thread-uri pentru a stabili de la inceput cat calup de
-informatie va avea de parcurs fiecare.
+            
+            
+Pentru implementarea bonusului am inceput prin a calcula dimensiunea totala a fisierului ce va fi prelucrat de comenzi, apoi impartit
+la numarul de thread-uri pentru a stabili de la inceput cat calup deinformatie va avea de parcurs fiecare.
 In cadrul primei metode run unde se afla logica threadurilor de level
 1 dau skip la caracterele din fisier pana ajung la caracterul de pe
 pozitia start.
