@@ -1,5 +1,4 @@
 # Orders-Processing-using-Replicated-Workers
-#Copyright Stan Andreea-Cristina 333CA
 
 Tema2 
     main -> Metoda in care se afla toata logica main, se face citirea din
